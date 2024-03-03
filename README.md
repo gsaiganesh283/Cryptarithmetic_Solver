@@ -54,11 +54,16 @@ Solving a cryptarithm by hand usually involves a mix of deductions and exhaustiv
 <p align='center'>
 <img src="https://github.com/gsaiganesh283/Cryptarithmetic_Solver/assets/121511326/5dd7e43c-3c8f-42a9-8979-12007597d2f2"/>
 </p>
-1. The sum of two biggest two-digit-numbers is 99+99=198. So O=1 and there is a carry in column 3.
+1. The sum of two biggest two-digit-numbers is 99+99=198. So O=1 and there is a carry in column three.
+
 2. Since column 1 is on the right of all other columns, it is impossible for it to have a carry. Therefore 1+1=T, and T=2.
+   
 3. As column 1 had been calculated in the last step, it is known that there isn't a carry in column 2. But, it is also known that there is a carry in column 3 in the first step. Therefore, 2+G≥10. If G is equal to 9, U would equal 1, but this is impossible as O also equals 1. So only G=8 is possible and with 2+8=10+U, U=0.
 
 The use of modular arithmetic often helps. For example, use of mod-10 arithmetic allows the columns of an addition problem to be treated as simultaneous equations, while the use of mod-2 arithmetic allows inferences based on the parity of the variables.
 
 In computer science, cryptarithms provide good examples to illustrate the brute force method, and algorithms that generate all permutations of m choices from n possibilities. For example, the Dudeney puzzle above can be solved by testing all assignments of eight values among the digits 0 to 9 to the eight letters S,E,N,D,M,O,R,Y, giving 1,814,400 possibilities. They also provide good examples for backtracking paradigm of algorithm design.
 
+## References
+
+* ![Crux Mathematicorum PDF](https://cms.math.ca/wp-content/uploads/crux-pdfs/Crux_v9n04_Apr.pdf)
