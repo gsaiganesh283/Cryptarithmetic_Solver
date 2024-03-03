@@ -54,7 +54,7 @@ Solving a cryptarithm by hand usually involves a mix of deductions and exhaustiv
 <p align='center'>
 <img src="https://github.com/gsaiganesh283/Cryptarithmetic_Solver/assets/121511326/5dd7e43c-3c8f-42a9-8979-12007597d2f2"/>
 </p>
-1. The sum of two biggest two-digit-numbers is 99+99=198. So O=1 and there is a carry in column three.
+1. The sum of two biggest two-digit-numbers is 99+99=198. So O=1 and there is a carry in column 3.
 
 2. Since column 1 is on the right of all other columns, it is impossible for it to have a carry. Therefore 1+1=T, and T=2.
    
